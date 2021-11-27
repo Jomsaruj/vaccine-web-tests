@@ -15,6 +15,8 @@ Since my tests use Chrome to open the application. Here are some instruction on 
 
 3. Set your Chrome driver path
 
+There are many ways to set Chrome driver path. This is one of the good example [set Chrome driver for MAC](https://www.swtestacademy.com/install-chrome-driver-on-mac/)
+
 
 
 ### How to run test
