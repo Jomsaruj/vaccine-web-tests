@@ -11,10 +11,26 @@ Since my tests use Chrome to open the application. Here are some instruction on 
 
 2. Download suitable version for your Chrome driver
 
-https://chromedriver.chromium.org/
+  * https://chromedriver.chromium.org/
+
+3. Set your Chrome driver path
+
+
 
 ### How to run test
 
+install robot framework
+
+```
+pip install robotframework
+```
+
+install selenium2library
+
+```
+pip install robotframework-selenium2library
+```
+run tests
 ```
 robot 3AM.robot
 ```
