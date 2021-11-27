@@ -1,6 +1,10 @@
 # vaccine-web-tests
 Introduction to Robot framework
 
+### SUT
+
+https://vaccine-haven.herokuapp.com/
+
 ### Prerequisite
 
 Since my tests use Chrome to open the application. Here are some instruction on how to set Chrome driver. 
@@ -16,8 +20,6 @@ Since my tests use Chrome to open the application. Here are some instruction on 
 3. Set your Chrome driver path
 
 There are many ways to set Chrome driver path. This is one of the good example [set Chrome driver for MAC](https://www.swtestacademy.com/install-chrome-driver-on-mac/)
-
-
 
 ### How to run test
 
@@ -36,4 +38,11 @@ run tests
 ```
 robot 3AM.robot
 ```
+
+### Robot framework resource(s)
+
+* [Thai tutorial](https://www.youtube.com/watch?v=xqN4DSUf_Gs&list=PLZ6Bx61eBnB07SRw1zZR5Pad8kheKLftt&index=2) - This is one of the good tutorial in Thai that I recommmend
+* [Source code](https://github.com/kachain2019/robot_day1) - This is the source code from the previous video
+* [Documentation](https://robotframework.org/Selenium2Library/Selenium2Library.html#Open%20Browser) - Robot framework documentation
+* [Robot framework example](https://github.com/bleachjade/Kvent/blob/master/Kvent/tests/e2e/test_auth_success.robot) - Good example of how to apply robot framework to project
 
